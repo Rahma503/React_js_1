@@ -1,0 +1,48 @@
+#projects {
+  text-align: center;
+}
+
+#projects .content {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  
+}
+
+#projects .title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(100, 8, 97);
+    /* margin-top: 20px;
+    margin-bottom: 30px; */
+    margin: auto;
+}
+
+
+#projects .card {
+    transition: transform 0.5s ease;
+    width: 250px;
+    height: 200px;
+    margin: 50px 100px;
+    padding: 40px 80px;
+    background-color: rgb(223, 33, 178);
+   
+  }
+  
+  #projects .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  #projects .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  #projects .card .icon{
+    font-size: 3rem;
+    color: darkmagenta;
+  }
+  
+

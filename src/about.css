@@ -1,0 +1,46 @@
+.btncv {
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: #a70a9d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .btncv a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .btncv:hover {
+    background-color: #e79bdc;
+  }
+  .aboutheader {
+ 
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(91, 6, 88);
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  .aboutpara {
+    position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 50px 50px;
+  }
+
+
+  
+
+
+  

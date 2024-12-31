@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+AU+VIC+Guides&display=swap'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+AU+VIC+Guides&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Lora", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(168, 161, 161);
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    
+    align-items: center;
+    padding: 10px 100px;
+}
+.header .others{
+    text-decoration: none;
+    color: rgb(91, 6, 88);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 35px;
+    justify-content: space-between;
+
+    
+}
+.logo{
+    color: rgb(91, 6, 88);
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1200px;
+    
+}
+
+.others:hover{
+    color: aliceblue;
+}
+
+
+.main1{
+    padding: 100px 200px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('./assets/img1.jpg') no-repeat;
+    /* background-color: rgb(190, 223, 244); */
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.main1 h2{
+    color: rgb(91, 6, 88);
+    font-size: 25px;
+    font-weight: 700;
+}
+.main1 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(91, 6, 88);
+    font-size: 3em;
+    font-weight: 800;
+
+}
+.main1 h3{
+    color: rgb(91, 6, 88);
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main1 .main_btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(91, 6, 88);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 0.9375em 2.1875em; 
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    transition: 0.7s ease;
+
+}
+.social_icons a{
+    text-decoration: none;
+    color: rgb(193, 40, 193);
+    font-size: 2.5em;
+    display: inline-block;
+    padding: 10px;
+
+}
+.social_icons a:hover{
+    color: black;
+}
+
+
+.main_btn:hover{
+    background-color: rgb(158, 23, 154);
+    transform: scale(1.1);
+
+}
+
+
+
+
+
